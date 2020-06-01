@@ -72,7 +72,7 @@ def calculationLoop(iteration):
 
 
 def plot_loop1():
-    pi, x_coordinate_of_points, y_coordinate_of_points_inside, y_coordinate_of_points_outside, percentError, step = main_loop()
+    pi, x_coordinate_of_points, y_coordinate_of_points_inside, y_coordinate_of_points_outside, step = main_loop()
 
     main_loop()
     plt.scatter(x_coordinate_of_points, y_coordinate_of_points_inside, marker='.')
