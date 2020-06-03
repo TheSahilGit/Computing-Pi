@@ -1,3 +1,10 @@
+''' Code for Calculating the value of Pi by collision between two blocks.
+'''
+
+### Sahil Islam ###
+### 02/06/2020 ###
+
+
 import pygame
 import numpy as np
 from fractions import Fraction
